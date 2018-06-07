@@ -1,0 +1,23 @@
+{
+  "name": "step_function_restart",
+  "version": "1.0.0",
+  "description": "This repository is used in conjunction with a step function to restart the whole Step Function if one or more limits are reached",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Security7/Step_Function_Restart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Security7/Step_Function_Restart/issues"
+  },
+  "homepage": "https://github.com/Security7/Step_Function_Restart#readme",
+  "dependencies": {
+    "aws-sdk": "^2.252.1",
+    "moment": "^2.22.2"
+  }
+}
