@@ -4,6 +4,7 @@
   "description": "This repository is used in conjunction with a step function to restart the whole Step Function if one or more limits are reached",
   "main": "index.js",
   "scripts": {
+    "build": "./build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,7 @@
   },
   "homepage": "https://github.com/Security7/Step_Function_Restart#readme",
   "dependencies": {
-    "aws-sdk": "^2.252.1",
-    "moment": "^2.22.2"
+    "aws-sdk": "2.252.1",
+    "moment": "2.22.2"
   }
 }
