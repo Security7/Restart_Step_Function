@@ -85,7 +85,6 @@ function prepare_the_data(container)
 		container.step_function_input_options = JSON.stringify({
 			step_function_arn: container.req.step_function_arn,
 			execution_date: container.new_execution_data,
-			loop_count: container.req.loop_count,
 			loop_limit: container.req.loop_limit
 		});
 		
