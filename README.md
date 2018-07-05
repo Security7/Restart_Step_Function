@@ -1,6 +1,6 @@
 # Step Function Restart
 
-This repository is used in conjunction with a step function to restart the whole Step Function if one or more limits are reached
+This repository is used in conjunction with a step function to restart the whole Step Function if one or more limits are reached.
 
 # More about us
 
